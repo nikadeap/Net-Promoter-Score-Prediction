@@ -1,4 +1,4 @@
-#Manipal Hospital
+
 #Binary Model
 
 #Load required libraries
@@ -14,7 +14,7 @@ library(lsr)
 
 #Import trainig data for binary model
 
-setwd('C:/Users/Harish/Desktop/BDA/Assignment_Module_2')
+setwd('C:/......')
 train.data <- read.csv("Train_Binary.csv",header = TRUE)
 test.data <- read.csv("Test_Binary.csv",header=TRUE)
 
