@@ -1,4 +1,4 @@
-#Manipal Hospital
+
 #Multiclass Model
 
 #Load required libraries
@@ -14,7 +14,7 @@ library(lsr)
 
 #Import trainig data for 3-class model
 
-setwd('C:/Users/Harish/Desktop/BDA/Assignment_Module_2')
+setwd('C:/......')
 train.data <- read.csv("Train_MultiClass.csv",header = TRUE)
 test.data <- read.csv("Test_MultiClass.csv",header=TRUE)
 
