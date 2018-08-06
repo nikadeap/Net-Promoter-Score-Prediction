@@ -4,12 +4,12 @@ library(ROCR)     #for ROC plot (other way)
 library(caret)    #for data partition. Model building
 library(ResourceSelection) #Hosmer lemeshow GoF test
 
-setwd('C:/Users/Harish/Desktop/BDA/Assignment_Module_2')
-#raw.data <- read.csv("/Users/Harish/Desktop/BDA/Assignment_Module_2/Manipal NPS data file")
+setwd('C:/...')
+
 
 library(readxl)
-raw_data <- read_excel("Manipal NPS data file.xlsx", sheet = 'Training Data for Multi-Class M')
-test.data <-read_excel("Manipal NPS data file.xlsx", sheet = 'Test Data for Multi-Class Model')
+raw_data <- read_excel("HospitalDatafile.xlsx", sheet = 'Training Data for Multi-Class M')
+test.data <-read_excel("HospitalDatafile.xlsx", sheet = 'Test Data for Multi-Class Model')
 
 str(raw_data)
 raw_data <- data.frame(raw_data)
